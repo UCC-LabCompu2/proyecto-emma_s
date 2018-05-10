@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="Style_ressort.css" /> 
+		
+		
+		<title> Watch your system move </title>
+
+	</head>
+
+	<header id="header_page2">
+		<h1> Mass-spring system </h1>
+		<div> Choose the number of mass and spring, enter variable and look how the system moves </div>
+	</header>
+
+	<body>
+		<div >
+			<h2> Pendulum system </h2>
+		</div>
+
+
+		<div>
+
+			The objective of this system is to observe the oscillations of the pendulum. 
+			As you may see, you can change the variable below. 
+			Please fill up the blank. 
+
+		</div>
+
+		<div class="txt_p">
+			<form method="post" action="achanger.php">
+   				<p>
+   					<label>Number of spring </label> : <input type="number" name="nb_ressort" /><br>
+   					<label>Constant of steepness of the spring</label> : <input type="number" name="cte_raideur" /><br>
+   					<label>Gravity </label> : <input type="number" name="gravité" /><br>
+   					<label>Weight </label> : <input type="number" name="poids" /><br>
+   				</p>
+			</form>
+
+
+		</div>
+
+
+		<div class="div_img_pendule">
+			<p>
+    	
+    				<img class="img_pendule" src="img/pendule.jpg" alt="Photo of the pendulum" />
+			</p>
+
+		</div>
+
+
+		<div>
+
+			<canvas id="canvas_p">
+			</canvas>
+
+		</div>
+
+	</body>
+
+
+</html>

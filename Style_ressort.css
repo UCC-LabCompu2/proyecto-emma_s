@@ -1,0 +1,126 @@
+/* css page1*/
+
+body{
+
+	background-color: #B6DED3;
+}
+
+.intro_page1{
+	padding-top: 300px;
+	text-align: center;
+}
+
+
+a.bouton1 {
+	padding: 10px 30px; 
+	margin-top: 100px;
+	background: #B1D474; 
+	color: black; 
+}
+
+a.bouton1:hover {
+	background: #F3F7DF; 
+}
+
+/* css page 2*/
+#header_page2{
+
+	background-color: #189A99;
+	padding: 20px 50px;
+	margin: 10px;
+	text-align: center;
+}
+
+.body_page2{
+
+	background-color: #B6DED3;
+}
+
+.body_hdiw{
+
+	background-color: #B6DED3;
+}
+
+.nav_page2{
+
+	background-color: #189A99;
+	margin: 10px;
+	margin-top: 10px; 
+	margin-right: 1040px;
+	padding-top: 10px; 
+	padding-bottom: 800px; 
+
+}
+
+.ul_nav{
+	margin-left: -5px; 
+}
+
+.div_img_masse_ressort{
+	margin-left: 450px;
+	margin-top: -800px;
+	
+  
+}
+/* css masse-ressort*/
+
+.img_masse{
+	width: 200px; 
+	height:200px; 
+}
+
+.div_img_masse{
+
+	padding-top: 10px; 
+	padding-left: 10px;  
+}
+
+#canvas_ms{
+	width:600px; 
+	height:350px; 
+	border:1.5px solid #000000;
+	margin-left: 450px;
+	margin-top: -400px; 
+
+}
+
+#canvas_p{
+
+	width:600px; 
+	height:350px; 
+	border:1.5px solid #000000;
+	margin-left: 450px;
+	margin-top: -400px;
+	
+
+}
+.div_img_pendule{
+
+	padding-top: 10px;
+	padding-left: 10px;   
+}
+.img_pendule{
+
+	width: 200px; 
+	height:200px;
+	  
+}
+
+.txt_m{
+	padding-left: 10px; 
+
+}
+
+.txt_p{
+	padding-left: 10px; 
+
+}
+
+
+
+
+
+
+
+
+
